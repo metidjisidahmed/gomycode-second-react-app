@@ -1,0 +1,22 @@
+{
+    "posts" : [
+      { "id": 1, "title": "json-server", "author": "typicode" }
+    ],
+    "cats" : [
+        {
+          "breedName" : "Siamese" , "price" : 75 , "imageLink" : "https://www.litter-robot.com/media/blog/alex-meier-siamese.jpg"
+        },
+        {
+          "breedName" : "Persian" , "price" : 40 , "imageLink" : "https://images.unsplash.com/photo-1591429939960-b7d5add10b5c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cGVyc2lhbiUyMGNhdHxlbnwwfHwwfHw%3D&w=1000&q=80"
+        },
+        {
+          "breedName" : "Sphynx" , "price" : 250 , "imageLink" : "https://www.litter-robot.com/media/blog/alex-meier-siamese.jpg"
+        },
+        {
+          "breedName" : "Maine Coon" , "price" : 80 , "imageLink" : "https://www.purina.co.uk/sites/default/files/styles/square_medium_440x440/public/2022-06/Maine-Coon-Cat.jpg?itok=XrHCK4xn"
+        },
+        {
+          "breedName" : "Ragdoll" , "price" : 50 , "imageLink" : "https://www.catsbest.eu/wp-content/uploads/Ragdoll-1-e1607423517672.jpg"
+        }
+    ]
+}
