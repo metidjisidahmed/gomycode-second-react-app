@@ -3,12 +3,21 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
+import 'bootstrap/dist/css/bootstrap.min.css'
+import {createBrowserHistory} from "history";
+import {Route , Router , Switch} from "react-router";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
+export const history = createBrowserHistory()
+
 root.render(
     <>
         {/*<React.StrictMode>*/}
-        <App />
+        <Router history={history}>
+            <App />
+        </Router>
         {/*</React.StrictMode>*/}
     </>
 

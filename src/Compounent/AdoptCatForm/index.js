@@ -6,6 +6,7 @@ import {eventWrapper} from "@testing-library/user-event/dist/utils";
 export default function AdoptCatForm(message){
 
     const fullNameRef= useRef()
+
     const emailRef = useRef()
     const agreeTermsRef = useRef()
     const [ phoneNumber , setPhoneNumber]=useState("")

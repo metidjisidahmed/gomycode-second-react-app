@@ -27,8 +27,6 @@ export default function AdoptCatFormV2(message){
 
 
 
-
-
     function  sendTheDataToTheBackend (){
 
 
